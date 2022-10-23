@@ -1,0 +1,62 @@
+body {
+  margin: 10;
+  padding: 25;
+  word-wrap: break-word;
+  position: relative;
+  background-color: rgb(211, 238, 246);
+  /* font-size: 20px; */
+  color: #333;
+  font-family: "Fira Sans", sans-serif;
+  text-align: left;
+}
+#paragraf1 {
+  font-size: 20px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.taitl {
+}
+/* * {
+  margin: 10px;
+  padding: 10px;
+  color: rgb(20, 16, 31);
+}
+*/
+
+.pi {
+  margin-left: 0%;
+  padding-top: 0%;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.text {
+  display: inline;
+  font-size: 20px;
+}
+#oli {
+margin-top: 20px;
+padding: top 20px;
+font-size: 22px;
+font-style: italic;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
